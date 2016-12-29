@@ -14,7 +14,7 @@
 |:---|:---|
 |doc|ドキュメントを格納|
 |common|共通パッケージ|
-|dao\interface|DBアクセスインターフェースパッケージ|
+|dao\interface|DAOインターフェースパッケージ|
 |dao\implement|DAO実装クラスパッケージ|
 |dto|データ転送オブジェクトパッケージ|
 |function|bottleで使用するファンクションパッケージ|
