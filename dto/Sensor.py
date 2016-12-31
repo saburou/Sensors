@@ -15,7 +15,7 @@ class Sensor:
     def __init__(self, id, name='unnamed', pinNo=None, available=false, direction=GPIO.IN, mode=GPIO.BOARD):
         '''
             Default pin assignment mode is GPIO.BOARD.
-            For example Upper left is No.1, Lower right is No.40 in Raspberry Pi3.
+            For example Upper left pin is No.1, Lower right pin is No.40 in Raspberry Pi3.
             If you want to use pin with GPIO No. , set mode to GPIO.BCM.
         '''
         self.id = id
