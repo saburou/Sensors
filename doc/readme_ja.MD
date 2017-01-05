@@ -19,3 +19,18 @@
 |dto|データ転送オブジェクトパッケージ|
 |function|bottleで使用するファンクションパッケージ|
 |template|bottleで使用するHTMLテンプレート|
+
+## 備考
+### python3 GPIOライブラリ　インストール
+python3用のGPIOライブラリをインストールする。
+
+`$ sudo apt-get install python3-rpi.gpio`
+
+### GPIOの定数値
+
+|名称|値|
+|:---|:---|
+|GPIO.IN|1|
+|GPIO.OUT|0|
+|GPIO.BOARD|10|
+|GPIO.BCM|11|
