@@ -1,7 +1,7 @@
 # coding: utf-8
 
 import RPi.GPIO as GPIO
-import datetime import datetime
+from datetime import datetime
 
 class SensorData:
 
@@ -34,7 +34,7 @@ class Sensor:
         if available and GPIO.IN == self.direction:
             GPIO.setmode(self.mode)
             GPIO.setup(self.pinNo, self.direction)
-            tmp = new SensorData(0,GPIO.input(self.pinNo), datetime.now())
+            tmp = SensorData(0,GPIO.input(self.pinNo), datetime.now())
             GPIO.cleanup()
 
         return tmp

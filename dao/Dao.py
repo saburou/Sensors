@@ -1,10 +1,6 @@
 # coding: utf-8
 
-import redis
-
-class Dao:
-    def __init__(self, host='localhost', port=6379, db=0):
-        r = redis.Redis(host, port, db)
+class Dao():
 
     def select(self):
         raise NotImplementedError
@@ -19,4 +15,4 @@ class Dao:
         raise NotImplementedError
 
     def close(self):
-        self.r.close()
+        raise NotImplementedError
